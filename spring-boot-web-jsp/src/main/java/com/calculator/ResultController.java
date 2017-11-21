@@ -8,11 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.util.MySQL;
 
 @Controller
-
 public class ResultController
 {
-	// inject via application.properties
-	//@Value("${welcome.message:test}")
+
 	private String message = "Hola Mundo";
 
 	@RequestMapping("/result")
